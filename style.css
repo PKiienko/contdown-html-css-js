@@ -1,0 +1,42 @@
+* {  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-size: 5rem;  
+  padding: 3rem;
+}
+
+.opening {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;  
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.counter { 
+  display: flex;  
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+.day-div, .hour-div, .minute-div, .second-div {
+  font-size: 1rem;
+}
+
+.day-text, .hour-text, .minute-text, .second-text {
+  font-size: 3rem;
+}
+
+img {
+  height: 30vh;
+  margin: 3rem;
+}
